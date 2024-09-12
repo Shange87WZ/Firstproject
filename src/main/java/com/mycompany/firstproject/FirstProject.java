@@ -3,7 +3,7 @@
  */
 
 package com.mycompany.firstproject;
-
+import java.util.Scanner;
 /**
  *
  * @author RC_Student_lab
@@ -11,6 +11,15 @@ package com.mycompany.firstproject;
 public class FirstProject {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        Scanner sc = new Scanner(System.in);
+       
+        String name;
+        String location;
+        
+        System.out.print("please enter your name:");
+        name =sc.next();
+        
+        System.out.print("please enter location:");
+        location = sc.next();
     }
 }
